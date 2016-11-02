@@ -1,0 +1,119 @@
+/* Mi primer css esto es un comentario */
+
+body{
+	background-image:url("mundial.jpg");
+	background-color:white;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+	
+	background-color:black;
+	color:blue;
+	color:rgb(0, 255, 0);
+	padding: 20px;
+	margin: 0px;
+	border: 20px solid purple;
+	text-align: center;
+	font-family: fantasy;
+	
+	
+}
+
+nav {
+	margin: 0 auto;
+	width: 100%;
+	background-color:transparent;
+	opacity:0.5;
+}
+
+nav ul{
+	margin: 10;
+	
+	
+}
+
+nav ul li{
+	display: inline-block;
+	border:1px solid red;
+	
+	background-color:black;
+
+	padding: 20px 30px;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	color: blue;
+}
+
+section .par_color{
+	color:green;
+	
+}
+
+section {
+	width: 64%;
+	padding: 3%;
+	background-color: transparent;
+	float: left;
+	
+}
+
+section h1{
+	color: white;
+	
+}
+
+section p{
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+	color: white;
+	
+}
+
+table {
+	color:white;
+}
+aside{
+	width: 20%;
+	padding: 3%;
+	background-color: #ffff99;
+	float: right;
+	color:black;
+	font-family:Cursive;
+	margin-right: 2%;
+	margin-top:16%;
+	
+}
+
+footer {
+	clear: both;      /*para limpiar elementos flotantes*/
+	background-color: #8180ED;
+	color: #EFB71F;
+	width: 94%;
+	padding: 3%;
+	text-align: center;
+	
+}
+
+form{
+	text-align:center;
+	
+}
+h1{
+	text-align:center;
+}
+
+ol{
+	
+color:white;
+}
